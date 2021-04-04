@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./styles/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"
+        integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ=="
+        crossorigin="anonymous">
+
+    </script>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul class="nav-items">
+            <li to=".landing">Home</li>
+            <li to=".projects">Projects</li>
+            <li to=".about">About</li>
+            <li to=".contact">Contact</li>
+        </ul>
+        <h1>Ethan Burkett</h1>
+    </div>
+    <section class="section landing">
+        <button class="btn-primary scrollTo" to=".projects">Projects</button>
+        <span class="text">
+            <p>Hi, my name is Ethan Burkett 👋 and I am a web developer and working to become a back end developer in my
+                future years. You can learn more about me and my projects within this website.</p>
+        </span>
+    </section>
+    <section class="section projects">
+        <div class="grid">
+            <div class="project djsbot">
+                <h2 class="title">Easy DJS Bot</h2>
+                <p class="description">This project is a framework for Discord.JS that makes it easier for new
+                    Discord.JS users to make their own Discord bot.</p>
+                <div class="github">
+                    <div class="github-icon"></div>
+                    <p>GitHub</p>
+                </div>
+            </div>
+            <div class="project firebasebot">
+                <h2 class="title">Firebase Bot</h2>
+                <p class="description">This project is currently in progress but live development is on the github. This
+                    is a discord bot that uses firebase as it's database host.</p>
+                <div class="github">
+                    <div class="github-icon"></div>
+                    <p>GitHub</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section about">
+        <h1>About Me</h1>
+        <img class="banner" src="../images/banner.png"></img>
+        <span class="text">
+            <p>I am a 16 year old full stack developer, I am currently working on discord projects and a restaraunt
+                ordering process. I have been coding since I was 11, ever since then I fell in love with the way
+                websites and programs have worked. Over the years I've learned many languages, including: Python, Java,
+                C#, HTML, CSS, JavaScript, and React. I'm currently learning how to use Google's Firebase and more on
+                how it works, I have a passion for back-end and working with databases.</p>
+        </span>
+        <img class="firebase-logo" src="../images/firebase-logo.png"></img>
+    </section>
+    <section class="section contact">
+        <span class="text">
+            <p>You can email me at: ethanlee77316@gmail.com<br>If you have any questions about me or what I do, feel
+                free to ask me.<br>Business inquiries must be sent to this email.</p>
+        </span>
+    </section>
+    <script src="./scripts/jquery.js"></script>
+    <script defer src="./scripts/main.js"></script>
+</body>
+
+</html>
