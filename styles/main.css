@@ -65,6 +65,10 @@ button,input,a,p,h1 {
     padding-right: 2em;
     cursor: pointer;
     font-size: 26px;
+    transition: color 0.1s ease-in-out;
+}
+.nav-items > li:hover {
+    color: rgb(100, 100, 100);
 }
 
 .section.landing {
